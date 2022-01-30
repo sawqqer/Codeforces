@@ -29,7 +29,7 @@ const ll INF = 1e18 + 17;
 void solve() {	
     int n;
     cin >> n;
-    string *s;// pointer on string data type   
+    string *s;
     s = new string[n];
     for(int i = 0;i < n;i++) {
         cin >> s[i];
